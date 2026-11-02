@@ -1,10 +1,31 @@
 package Playground;
 
-import java.lang.reflect.Array;
+// import java.lang.reflect.Array;
+
 
 public class Est {
 
     public static void main(String [] args) {
+
+        // Running method that uses print method designed for newer and easier print to standard output
+        MyMethod();
+
+        // Running method that uses the traditional print method of Java
+        // stringTests();
+
+
+    }
+        
+    public static void MyMethod() {
+        IO.println("Welcome to Lloyds Java programming!");
+
+        IO.print(42);
+        System.out.println(" ");
+
+        IO.println("10 + 5 = " + (10 + 5));
+    }
+
+    public static void stringTests() {
         System.out.println("Hey");
 
         var a = "some People are nice, some are not nice.";
@@ -33,9 +54,7 @@ public class Est {
         System.out.println(substring);
         System.out.println(substring.trim() + "!");
         System.out.println(txt.trim());
-
     }
-        
-    // tring somevar = "Hello";
-    // print somevar
+
+    
 }
